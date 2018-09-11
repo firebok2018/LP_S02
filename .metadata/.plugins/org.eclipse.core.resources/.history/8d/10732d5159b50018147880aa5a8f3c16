@@ -1,0 +1,22 @@
+package Ejercicios;
+
+public class Ejercicio_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			int num1,num2,resu;
+			num1= 60;
+			num2=92;
+			num2=num2-(num1+30);
+			resu=num1/num2;
+			System.out.println("Division es :" +resu);
+			
+		} catch (ArithmeticException e) {
+			// TODO: handle exception
+			System.out.println("No se puede dividir entre cero");
+		}
+
+	}
+
+}

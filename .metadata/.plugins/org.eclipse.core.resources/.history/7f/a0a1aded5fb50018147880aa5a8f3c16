@@ -1,0 +1,18 @@
+package Ejercicios;
+
+import javax.swing.JOptionPane;
+
+public class Ejercico_05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Class.forName("co,.mysql.dfdf.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO: handle exception
+			JOptionPane.showMessageDialog(null, e.getMessage());
+		}
+
+	}
+
+}

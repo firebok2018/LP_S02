@@ -1,0 +1,26 @@
+package Ejercicios;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			int num1=20,num2=5;
+			int res=num1/num2;
+			String cadena="abc";
+			int num3=Integer.parseInt(cadena);
+			System.out.print("Numero 1 : "+num1 );
+			System.out.print("Numero 2 : "+num2 );
+			System.out.print("Cadena   : "+cadena );
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			JOptionPane.showMessageDialog(null, "Excepcion captura",JOptionPane.ERROR_MESSAGE);
+		}
+
+	}
+
+}

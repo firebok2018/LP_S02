@@ -1,0 +1,10 @@
+package Ejercicios;
+
+public class Ejemplo_de_hilos_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
